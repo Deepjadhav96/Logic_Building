@@ -12,6 +12,8 @@ void Display(int iPtr[])
 
     printf("%d\n",*iPtr);
 
+    printf("/n"); //Added 
+
 }
 
 int main()
