@@ -1,0 +1,29 @@
+#include<stdio.h>
+#include<fcntl.h>
+#include<unistd.h>
+#include<string.h>
+
+#define BUFFER_SIZE 1024
+
+int main()
+{
+    char Buffer[BUFFER_SIZE] = {'\0'};
+    int iRet = 0, fd = 0;
+
+    fd = open("Marvellous.txt",O_RDONLY);
+    if(fd == -1)
+    {
+        printf("Unable to open files\n");
+        return -1;
+    }
+    
+    while(iRet = read(fd,Buffer,sizeof(Buffer)) != 0)
+    {
+        printf("%s",Buffer);
+        memset(Buffer, '\0', sizeof(Buffer));           //Buffer cleaning
+
+    }
+    close(fd);
+    
+    return 0;
+}
