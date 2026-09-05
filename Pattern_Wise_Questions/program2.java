@@ -24,5 +24,7 @@ class program2
        }
         System.out.println("Unique elements are: "+iCount);
 
+
+
     }
 }
