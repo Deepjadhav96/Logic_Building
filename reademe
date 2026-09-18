@@ -1,0 +1,38 @@
+# Parking Management System
+
+A small **System Design project** created to demonstrate different **Design Patterns** using a real-world Parking Management System.
+
+## 🎯 Objective
+
+* Understand Design Patterns through practical examples
+* Apply **OOP and SOLID principles**
+* Practice **Low-Level Design (LLD)**
+* Build modular and maintainable code
+
+## 🧩 Design Patterns
+
+The project will demonstrate patterns such as:
+
+* Singleton
+* Factory
+* Builder
+* Strategy
+* Observer
+* State
+* Adapter
+* Decorator
+
+## 🛠️ Technology
+
+* **Java**
+* OOP
+* Design Patterns
+* System Design / LLD
+
+## 🚧 Status
+
+**Work in Progress** — patterns and features will be added gradually.
+
+## 👨‍💻 Author
+
+**Deep Jadhav**
